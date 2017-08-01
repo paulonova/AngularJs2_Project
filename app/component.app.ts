@@ -10,8 +10,9 @@ export class Artist {
 
 @Component({
   selector: 'app',
-  templateUrl: './partials/app.html',
-  styleUrls: [ "./css/app.css" ] 
+  //templateUrl: './partials/app.html',
+  //styleUrls: [ "./css/app.css" ] 
+  template: '<h1> I AM HERE</h1>'
 })
 
 export class AppComponent {
