@@ -10,19 +10,22 @@ export class Artist {
 
 @Component({
   selector: 'app',
-  //templateUrl: './partials/app.html',
-  //styleUrls: [ "./css/app.css" ] 
-  template: '<h1> I AM HERE</h1>'
+  templateUrl: './partials/app.html',
+  styleUrls: [ "./css/app.css" ]
 })
 
 export class AppComponent {
   artists = ARTISTS;
   currentArtist: Artist;
 
-  showArtist(item) {
-    this.currentArtist = item;
-  }
+  showArtist(item){
+  this.currentArtist = item;
 }
+
+
+}
+
+
 
 var ARTISTS: Artist[] = [
   {

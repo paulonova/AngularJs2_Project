@@ -1,12 +1,14 @@
 // Place your settings in this file to overwrite default and user settings.
+// This hide all .js file
+
 {
-    "editor.wrappingColumn": 0,
-    "files.exclude": {
-			"**/node_modules": {},
-			"typings": {},
-			"**/*.map": {},
-			"**/*.js": {
-				"when": "$(basename).ts"
-			}
+	"editor.wrappingColumn": 0,
+	"files.exclude": {
+		"**/node_modules": {},
+		"typings": {},
+		"**/*.map": {},
+		"**/*.js": {
+			"when": "$(basename).ts"
+		}
 	}
 }
